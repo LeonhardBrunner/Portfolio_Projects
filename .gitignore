@@ -1,0 +1,9 @@
+# Geheimnisse
+.env
+
+# Virtuelle Umgebung
+.venv/
+
+# Python-Zwischendateien
+__pycache__/
+*.pyc
