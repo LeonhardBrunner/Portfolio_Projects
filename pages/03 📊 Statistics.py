@@ -1,0 +1,9 @@
+import ollama
+import streamlit as st
+import pdfplumber
+import pandas as pd
+
+st.title("Statistics and Visualization")
+st.write("""
+        This is a placeholder.
+        """)
