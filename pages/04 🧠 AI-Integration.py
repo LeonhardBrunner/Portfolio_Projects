@@ -1,16 +1,16 @@
 import ollama
 import streamlit as st
 
-st.title("AI Integration")
+st.header("AI Integration")
 st.write("""
         This is a placeholder.
         """)
 
-#container = st.container(border=True)
+st.divider()
 
 user_input = st.text_input("Ask AI")
 
-answer = st.button("Generate AI Answer")
+answer = st.button("Generate answer")
 if answer:
     with st.spinner("Generatering answer ..."):
         response = ollama.chat(model="llama3.1", messages=[

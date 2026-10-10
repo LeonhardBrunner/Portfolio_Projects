@@ -3,7 +3,9 @@ import streamlit as st
 import pdfplumber
 import pandas as pd
 
-st.title("Statistics and Visualization")
+st.header("Statistics and Visualization")
 st.write("""
         This is a placeholder.
         """)
+
+st.divider()
