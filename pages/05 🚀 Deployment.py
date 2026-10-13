@@ -1,6 +1,5 @@
 import ollama
 import streamlit as st
-import pdfplumber
 import pandas as pd
 
 st.header("IT-Infrastructure and Deployement")

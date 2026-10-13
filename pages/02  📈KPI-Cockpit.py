@@ -1,7 +1,7 @@
 import ollama
 import streamlit as st
-import pdfplumber
 import pandas as pd
+import time
 
 st.header("KPI Processing and Structuring")
 st.write("""
@@ -9,3 +9,4 @@ st.write("""
         """)
 
 st.divider()
+

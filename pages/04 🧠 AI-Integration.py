@@ -27,4 +27,6 @@ if answer:
 # accept_file=True,
 # file_type=["pdf"])
 # 
-# AI Chatbot für späteres Auswerten der Daten?
+# AI Agent für späteres Auswerten der Daten?
+
+# Verlauf des Chats muss sichtbar sein, Verlauf des KI Agenten muss sichtbar sein, was dessen einzelne Schritte waren

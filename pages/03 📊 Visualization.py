@@ -1,9 +1,9 @@
 import ollama
 import streamlit as st
-import pdfplumber
 import pandas as pd
+import numpy
 
-st.header("Statistics and Visualization")
+st.header("Statistics and In-Depth-Analyzes")
 st.write("""
         This is a placeholder.
         """)
