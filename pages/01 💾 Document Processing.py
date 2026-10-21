@@ -8,7 +8,7 @@ import time
 st.header("Document Upload and Processing")
 st.write("""
         Here you can upload your business documents (e.g. Bills). Use the expander to double-check
-        your file and save it to the database.
+        your file and to save it to the database.
         """)
 
 st.divider()
@@ -57,7 +57,7 @@ if file_upload is not None:
                         with st.status("Processing informations", expanded=False, type="step"):
                             st.write("Saving file")
                             time.sleep(2)
-                        
+
                         st.status("File successfully saved", state="complete", type="step")
                            
                 if sum_text == "":

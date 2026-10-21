@@ -11,6 +11,7 @@ st.write("""
         - IT-Performance Checks
         - Document Upload Tool
         - AI Integration Tool
+        - Live Deployment
         """)
 
 #st.selectbox("Select:", ("Thing A", "Thing B", "Thing C"))
